@@ -13,6 +13,8 @@ body {
 }
 
 .weather {
+  display: block;
+  margin: 0 auto;
   width: 665px;
   height: 770px;
   display: block;
