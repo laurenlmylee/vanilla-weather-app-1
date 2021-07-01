@@ -13,6 +13,8 @@ body {
 }
 
 .weather {
+  width: 665px;
+  height: 770px;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 16px;
