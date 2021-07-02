@@ -3,17 +3,6 @@ body {
   background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
-.weather-app {
-  display: block;
-  margin: 30px auto;
-  max-width: 600px;
-  padding: 20px;
-  border: 1px solid #d1e5ff;
-  border-radius: 5px;
-  /* box-shadow: 30px 50px rgb(65 50 100 / 8%);
-  color: #93baf8; */
-}
-
 h1 {
   color: rgb(255, 255, 255);
   display: block;
@@ -35,4 +24,13 @@ li {
   color: rgb(240, 240, 240);
   font-size: 12px;
   font-weight: 400;
+}
+
+.weather-app {
+  display: block;
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #d1e5ff;
+  border-radius: 5px;
 }
