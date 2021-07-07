@@ -13,6 +13,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <title>Weather App</title>
   </head>
   <body>
@@ -31,23 +34,26 @@
           </form>
           <div class="overview">
         <h1 id="city"></h1>
+        <div class="row row-cols-2">
+        <div class="col">
         <ul>
           <li>Last updated: <span id="date"></span>
             
           </li>
           <li id="description">
           </li>
+          </div>
         </ul>
         </div>
-        <div class="row">
-          <div class="col-sm-6">
+        <div class="col">
+          <div class="col-sm-6"></div>
             <div class="clearfix weather-temperature">
 <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Mostly Cloudy" id="icon" class="float-left"/>
-<div class="float-left">
+<!-- <div class="float-left"> -->
   <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link" id="active">°C</a> | <a href="#" id="fahrenheit-link">°F</a></span>
   </div>
 </div>
-          </div>
+    </div>
           <div class="col-sm-6">
             <ul>
     
@@ -61,6 +67,7 @@
             </ul>
           </div> 
       </div>
+    </div>
     </div>
   <small>
     <a href="https://github.com/laurenlmylee/vanilla-weather-app-1" target="_blank">Open-source code</a>, by Lauren🐧
