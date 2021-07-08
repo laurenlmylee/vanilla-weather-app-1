@@ -129,3 +129,10 @@ small a {
 .weather-temperature.active:hover {
   text-decoration: none;
 }
+
+#temp {
+  position: fixed;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(60%, 95%);
+}
