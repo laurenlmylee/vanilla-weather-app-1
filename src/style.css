@@ -131,7 +131,7 @@ small a {
 
 #temp {
   position: fixed;
-  bottom: 50%;
+  bottom: 75%;
   right: 50%;
   transform: translate(60%, 95%);
 }
