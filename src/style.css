@@ -116,8 +116,3 @@ small a {
 .weather-temperature.active:hover {
   text-decoration: none;
 }
-
-#humidity {
-  position: absolute;
-  right: 10px;
-}
