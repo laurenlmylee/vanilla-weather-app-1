@@ -1,5 +1,4 @@
 body {
-  
   font-family: "Josefin Sans", sans-serif;
   background-image: linear-gradient(
     109.6deg,
@@ -74,15 +73,15 @@ small a {
   margin-right: 5px;
   height: 70;
   width: 70;
-  display: absolute
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
-margin-bottom:0;
+  display: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 0;
 }
 
 .weather-temperature strong {
-  display:inline;
+  display: inline;
   color: #65b5f7;
   font-size: 48px;
   font-weight: 400;
@@ -91,21 +90,18 @@ margin-bottom:0;
   margin-bottom: 10px;
   text-align: center;
   margin: 50px 0 20px 0;
-  
-  
 }
 
 .weather-temperature .units {
-  display:inline;
+  display: inline;
   position: relative;
   top: -24px;
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
-  text-align:center;
+  text-align: center;
   margin: 50px 0 20px 0;
-  
 }
 
 .weather-temperature .units a {
