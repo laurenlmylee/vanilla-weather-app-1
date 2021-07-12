@@ -43,6 +43,7 @@ function displayForecast(response) {
   <span class="weather-forecast-temp-min">14°</span>
 </div>
 </div>
+</div>
 `;
   });
 
