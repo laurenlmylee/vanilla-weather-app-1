@@ -18,6 +18,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   padding-top: 7px;
+  padding-bottom: 5px;
 }
 
 ul {
@@ -28,7 +29,7 @@ ul {
 li {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-top: 0;
   color: #65b5f7;
   font-size: 12px;
   font-weight: 400;
@@ -96,7 +97,7 @@ small a {
   display: inline;
   position: relative;
   top: -24px;
-  color: rgb(255, 255, 255);
+  color: #65b5f7;
   font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
@@ -122,7 +123,7 @@ small a {
 }
 
 .weather-temperature.active {
-  color: rgb(255, 255, 255);
+  color: #65b5f7;
   cursor: default;
 }
 
@@ -134,7 +135,7 @@ small a {
   position: absolute;
   bottom: 57%;
   right: 48%;
-  transform: translate(60%, 60%);
+  transform: translate(40%, 60%);
 }
 
 .weather-forecast {
